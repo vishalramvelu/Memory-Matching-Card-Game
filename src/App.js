@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
-//Memory card game full
+//Memory card game full project code
 
 function MemoryCardGame() {
   const [cards, setCards] = useState([]);
