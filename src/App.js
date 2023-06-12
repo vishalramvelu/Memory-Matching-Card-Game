@@ -61,7 +61,6 @@ function MemoryCardGame() {
   };
 
   // Handle card click
-  // Handle card click
 const handleCardClick = (index) => {
   if (displayedCards[index] !== "*") {
     return;
@@ -118,7 +117,7 @@ const handleCardClick = (index) => {
     }
   }, [gameOver]);
 
-  // Render the game board
+  // Make the game board
   const renderBoard = () => {
     const boardSizeClass = `board board-${boardSize}x${boardSize}`;
 
@@ -137,7 +136,7 @@ const handleCardClick = (index) => {
     );
   };
 
-  // Render the game over message
+  // Send the game over message
   const renderGameOver = () => {
     return (
       <div className="game-over">
