@@ -1,61 +1,60 @@
-/* full board, timer, difficulty, react appearance css code */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
 
 .App {
   text-align: center;
-  padding: 20px;
 }
 
 .board {
-  display: grid;
-  gap: 10px;
+  display: inline-block;
   margin-bottom: 20px;
 }
 
-/* Define grid template columns for different board sizes */
-.board-2x2 {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.board-4x4 {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.board-6x6 {
-  grid-template-columns: repeat(6, 1fr);
-}
-
-.board-8x8 {
-  grid-template-columns: repeat(8, 1fr);
-}
-
 .card {
+  width: calc(88px + (88px * 0.35)); /* Increase width by 35% */
+  height: calc(88px + (88px * 0.35)); /* Increase height by 35% */
+  margin: calc(5.5px + (5.5px * 0.35)); /* Increase margin by 35% */
+  background-color: rgb(170, 214, 230) !important;
+  /* Set initial resting color to light blue */
   display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: lightblue;
-  color: white;
-  font-size: 24px;
-  height: 100px;
+  align-items: center;
+  font-size: calc(26.4px + (26.4px * 0.35)); /* Increase font size by 35% */
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .card.flipped {
-  background-color: darkblue;
+  background-color: rgb(52, 213, 16) !important;
+  /* Set flipped color to green */
+  color: #fff;
 }
 
 .game-over {
-  margin-bottom: 20px;
+  margin-top: calc(22px + (22px * 0.35)); /* Increase margin-top by 35% */
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 18px;
-  cursor: pointer;
+.options button {
+  margin: calc(5px + (5px * 0.35)); /* Increase margin by 35% */
 }
 
-.button-container {
-  margin-top: 20px;
+@media (max-width: 576px) {
+  .card {
+    width: calc(50px + (50px * 0.35)); /* Increase width by 35% */
+    height: calc(50px + (50px * 0.35)); /* Increase height by 35% */
+    margin: calc(3px + (3px * 0.35)); /* Increase margin by 35% */
+    font-size: calc(14px + (14px * 0.35)); /* Increase font size by 35% */
+  }
+  .game-over {
+    margin-top: calc(10px + (10px * 0.35)); /* Increase margin-top by 35% */
+  }
 }
 
- 
+
+
+
