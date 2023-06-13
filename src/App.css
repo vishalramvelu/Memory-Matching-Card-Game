@@ -1,3 +1,9 @@
+/*
+This CSS code defines the styles for the memory card game interface.
+It includes styles for the container, app, board, card, game-over section, and options buttons.
+The media query at the bottom adjusts the styles for smaller screens.
+*/
+
 .container {
   display: flex;
   flex-direction: column;
@@ -44,6 +50,7 @@
 }
 
 @media (max-width: 576px) {
+  /* Media query for smaller screens */
   .card {
     width: calc(50px + (50px * 0.35)); /* Increase width by 35% */
     height: calc(50px + (50px * 0.35)); /* Increase height by 35% */
@@ -54,7 +61,3 @@
     margin-top: calc(10px + (10px * 0.35)); /* Increase margin-top by 35% */
   }
 }
-
-
-
-
