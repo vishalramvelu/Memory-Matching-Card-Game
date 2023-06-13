@@ -1,3 +1,5 @@
+/* simplified functionality for checking if matched or not code */
+
 import React from "react";
 import "./Card.css";
 
