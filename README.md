@@ -1,74 +1,42 @@
-<<<<<<< HEAD
 # Memory-Card-Matching-Project
-=======
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a memory card matching game built with JavaScript and MERN stack. The objective of the game is to find all matching pairs of cards by flipping them over two at a time. It's a fun and challenging way to test your memory skills!
 
-## Available Scripts
+#Features
 
-In the project directory, you can run:
+Dynamic grid size: The game allows you to choose from different grid sizes, including 2x2, 4x4, 6x6, and 8x8, providing varying levels of difficulty.
+Card flipping: Click on a card to flip it and reveal the hidden symbol. Keep flipping cards until you find a matching pair.
+Match checking: The game automatically checks if the flipped cards are a match or not. If they match, they stay open; otherwise, they are flipped back over.
+Score tracking: The game keeps track of your moves and displays the number of matches found. Try to complete the game with as few moves as possible!
+Reset option: You can reset the game at any time to start fresh and shuffle the cards.
 
-### `npm start`
+#Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+JavaScript: The game logic and functionality are implemented using JavaScript, including the card shuffling, matching, and game state management.
+React: The user interface is built using React, allowing for efficient component-based development and seamless UI updates.
+Express.Js: Express.js makes it easier to create RESTful APIs, manage routes, handle request parameters, and perform various tasks related to building a backend for web applications. In your memory matching card game, Express.js is used to define the routes, handle POST and GET requests, interact with the MongoDB database, and manage the communication between the frontend and backend.
+Node.Js:Node.js serves as the foundation for your backend server. It allows you to handle HTTP requests and responses, interact with databases, and perform other server-side operations.Essentially, acts as the runtime environment that allows you to execute JavaScript on the server-side.
+MongoDB: MongoDB serves as the database management system that stores and manages the game-related data, including high scores and game statistics. It enables me to manage player data and provide a leaderboard feature to enhance the gaming experience for users.
+CSS: Styling and layout are done using CSS, making the game visually appealing and responsive.
+BootStrap: Bootstrap enhances the user experience by providing a responsive, visually appealing, and user-friendly interface.Provides consistent styling and responive desgin to fit any size device. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#Future Features
 
-### `npm test`
+1. Multiplayer Mode: Implement a multiplayer mode where players can compete against each other in real-time. Players can take turns to reveal cards and try to match pairs while competing for the best time and fewest tries.
+2. Power-Ups and Obstacles: Introduce power-up cards that provide temporary advantages, such as revealing all cards for a short time. Likewise, include obstacle cards that hinder players' progress, such as swapping card positions.
+3. Accessibility: Implement accessibility features to make the game usable by people with disabilities. This includes keyboard navigation, screen reader compatibility, and color contrast adjustments.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#Getting Started
 
-### `npm run build`
+To get started with the Memory Card Matching Game locally on your machine, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository: git clone https://github.com/your-username/Memory-Card-Matching-Game.git
+2. Navigate to the project directory: cd Memory-Card-Matching-Game
+3. Install dependencies: npm install
+4. Start the backend server: node server.js
+5. Start the development server: npm start
+6. Open your browser and visit http://localhost:3000 to play the game.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> d48e462 (Memory Card Game)
+This project is licensed under the MIT License. See the LICENSE file for more information.
