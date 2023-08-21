@@ -12,13 +12,13 @@ This is a memory card matching game built with JavaScript and MERN stack. The ob
 
 ## Technologies Used
 
-- JavaScript: The game logic and functionality are implemented using JavaScript, including the card shuffling, matching, and game state management.
-- React: The user interface is built using React, allowing for efficient component-based development and seamless UI updates.
-- Express.Js: Express.js makes it easier to create RESTful APIs, manage routes, handle request parameters, and perform various tasks related to building a backend for web applications. In your memory matching card game, Express.js is used to define the routes, handle POST and GET requests, interact with the MongoDB database, and manage the communication between the frontend and backend.
-- Node.Js:Node.js serves as the foundation for your backend server. It allows you to handle HTTP requests and responses, interact with databases, and perform other server-side operations.Essentially, acts as the runtime environment that allows you to execute JavaScript on the server-side.
-- MongoDB: MongoDB serves as the database management system that stores and manages the game-related data, including high scores and game statistics. It enables me to manage player data and provide a leaderboard feature to enhance the gaming experience for users.
-- CSS: Styling and layout are done using CSS, making the game visually appealing and responsive.
-- BootStrap: Bootstrap enhances the user experience by providing a responsive, visually appealing, and user-friendly interface.Provides consistent styling and responive desgin to fit any size device. 
+* JavaScript: The game logic and functionality are implemented using JavaScript, including the card shuffling, matching, and game state management.
+* React: The user interface is built using React, allowing for efficient component-based development and seamless UI updates.
+* Express.Js: Express.js makes it easier to create RESTful APIs, manage routes, handle request parameters, and perform various tasks related to building a backend for web applications. In your memory matching card game, Express.js is used to define the routes, handle POST and GET requests, interact with the MongoDB database, and manage the communication between the frontend and backend.
+* Node.Js:Node.js serves as the foundation for your backend server. It allows you to handle HTTP requests and responses, interact with databases, and perform other server-side operations.Essentially, acts as the runtime environment that allows you to execute JavaScript on the server-side.
+* MongoDB: MongoDB serves as the database management system that stores and manages the game-related data, including high scores and game statistics. It enables me to manage player data and provide a leaderboard feature to enhance the gaming experience for users.
+* CSS: Styling and layout are done using CSS, making the game visually appealing and responsive.
+* BootStrap: Bootstrap enhances the user experience by providing a responsive, visually appealing, and user-friendly interface.Provides consistent styling and responive desgin to fit any size device. 
 
 ## Future Features
 
