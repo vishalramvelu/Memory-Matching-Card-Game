@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import axios from 'axios';
 
 //Full implementation for memory card project
 
@@ -18,12 +19,54 @@ function MemoryCardGame() {
 
   const number_of_cards = boardSize * boardSize; // Ensure 2-dimensional grid with same rows and cols
 
+  const handleGameOver = async () => {
+    try {
+      await axios.post('http://localhost:5000/api/scores', {
+        tries: tryCount,
+        time: timer,
+      });
+      setGameOver(true);
+    } catch (error) {
+      console.error('Error saving score:', error);
+    }
+  };
+
   useEffect(() => {
     // Initialize the game when the board size changes
     initializeGame();
   }, [boardSize]);
 
+  const [highScores, setHighScores] = useState([]);
 
+  const fetchHighScores = async () => {
+    try {
+      const response = await axios.get('http://localhost:5000/api/scores');
+      setHighScores(response.data);
+    } catch (error) {
+      console.error('Error fetching high scores:', error);
+    }
+  };
+
+  // Call fetchHighScores when the game loads
+  useEffect(() => {
+    fetchHighScores();
+  }, []);
+
+  const renderHighScores = () => {
+    return (
+      <div className="high-scores">
+        <h2>High Scores</h2>
+        <ul>
+          {highScores.map((score) => (
+            <li key={score._id}>
+              Tries: {score.tries}, Time: {score.time} seconds
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
+  };
+  
   const initializeGame = () => {
     // Initialize the game state
     const numbers_list = makeRandomNumberList(number_of_cards);
