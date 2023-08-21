@@ -4,11 +4,11 @@ This is a memory card matching game built with JavaScript and MERN stack. The ob
 
 ## Features
 
-Dynamic grid size: The game allows you to choose from different grid sizes, including 2x2, 4x4, 6x6, and 8x8, providing varying levels of difficulty.
-Card flipping: Click on a card to flip it and reveal the hidden symbol. Keep flipping cards until you find a matching pair.
-Match checking: The game automatically checks if the flipped cards are a match or not. If they match, they stay open; otherwise, they are flipped back over.
-Score tracking: The game keeps track of your moves and displays the number of matches found. Try to complete the game with as few moves as possible!
-Reset option: You can reset the game at any time to start fresh and shuffle the cards.
+- Dynamic grid size: The game allows you to choose from different grid sizes, including 2x2, 4x4, 6x6, and 8x8, providing varying levels of difficulty.
+- Card flipping: Click on a card to flip it and reveal the hidden symbol. Keep flipping cards until you find a matching pair.
+- Match checking: The game automatically checks if the flipped cards are a match or not. If they match, they stay open; otherwise, they are flipped back over.
+- Score tracking: The game keeps track of your moves and displays the number of matches found. Try to complete the game with as few moves as possible. 
+- Reset option: You can reset the game at any time to start fresh and shuffle the cards.
 
 ## Technologies Used
 
