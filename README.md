@@ -1,4 +1,4 @@
-# Memory-Card-Matching-Project
+# Memory Card Matching Game
 
 This is a memory card matching game built with JavaScript and MERN stack. The objective of the game is to find all matching pairs of cards by flipping them over two at a time. It's a fun and challenging way to test your memory skills!
 
