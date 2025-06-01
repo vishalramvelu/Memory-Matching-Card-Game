@@ -16,7 +16,7 @@ This is a memory card matching game built with JavaScript and MERN stack. The ob
 To get started with the Memory Card Matching Game locally on your machine, follow these steps:
 
 1. Clone the repository: `https://github.com/vishalramvelu/Memory-Matching-Card-Game.git`
-2. Navigate to the project `directory: cd Memory-Card-Matching-Game`
+2. Navigate to the project directory: `cd Memory-Card-Matching-Game`
 3. Install dependencies: `npm install`
 4. Start the backend server: `node server.js`
 5. Start the development server: `npm start`
