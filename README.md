@@ -15,12 +15,12 @@ Frontend: HTML, CSS, Javascript, React, BootStrap
 ## Build
 To get started with the Memory Card Matching Game locally on your machine, follow these steps:
 
-1. Clone the repository: git clone https://github.com/your-username/Memory-Card-Matching-Game.git
-2. Navigate to the project directory: cd Memory-Card-Matching-Game
-3. Install dependencies: npm install
-4. Start the backend server: node server.js
-5. Start the development server: npm start
-6. Open your browser and visit http://localhost:3000
+1. Clone the repository: `https://github.com/vishalramvelu/Memory-Matching-Card-Game.git`
+2. Navigate to the project `directory: cd Memory-Card-Matching-Game`
+3. Install dependencies: `npm install`
+4. Start the backend server: `node server.js`
+5. Start the development server: `npm start`
+6. Open your browser and visit `http://localhost:3000`
 
 ## Contributing
 Contributions are welcome! If you'd like to enhance this project or report issues, please submit a pull request or open an issue.
