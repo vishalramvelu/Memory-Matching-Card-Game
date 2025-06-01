@@ -3,8 +3,8 @@
 This is a memory card matching game built with JavaScript and MERN stack. The objective of the game is to find all matching pairs of cards by flipping them over two at a time. Game includes score tracking, dynamic grid sizes, and game state saving. It's a fun and challenging way to test your memory skills!
 
 ## Framework
-Backend: Node.js, Express.js, MongoDB
-Frontend: HTML, CSS, Javascript, React, BootStrap
+* Backend: Node.js, Express.js, MongoDB
+* Frontend: HTML, CSS, Javascript, React, BootStrap
 
 ## Features
 - Dynamic grid size: The game allows you to choose from different grid sizes, including 2x2, 4x4, 6x6, and 8x8, providing varying levels of difficulty
